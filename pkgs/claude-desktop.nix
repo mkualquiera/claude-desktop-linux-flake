@@ -12,7 +12,7 @@
   patchy-cnb,
 }: let
   pname = "claude-desktop";
-  version = "0.7.7";
+  version = "0.7.8";
   srcExe = fetchurl {
     url = "https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/Claude-Setup-x64.exe";
     hash = "sha256-SOO1FkAfcOP50Z4YPyrrpSIi322gQdy9vk0CKdYjMwA=";
